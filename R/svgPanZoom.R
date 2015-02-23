@@ -93,7 +93,7 @@ svgPanZoom <- function(svg, ... , width = NULL, height = NULL, elementId = NULL)
 #' Widget output function for use in Shiny
 #'
 #' @export
-svgPanZoomOutput <- function(outputId, width = '100%', height = '400px'){
+svgPanZoomOutput <- function(outputId, width = '100%', height = '100%'){
   shinyWidgetOutput(outputId, 'svgPanZoom', width, height, package = 'svgPanZoom')
 }
 
